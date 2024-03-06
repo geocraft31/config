@@ -1,0 +1,18 @@
+return {
+  vim.keymap.set("n", "<C-f>", ":Neotree filesystem reveal left<CR>", {}),
+  vim.keymap.set("n", "K", vim.lsp.buf.definition, {}),
+  vim.keymap.set("n", "<space>gd", vim.lsp.buf.definition, {}),
+  vim.keymap.set("n", "<space>gr", vim.lsp.buf.references, {}),
+  vim.keymap.set("n", "<space>ca", vim.lsp.buf.code_action, {}),
+  vim.keymap.set("n", "<space>gf", vim.lsp.buf.format, {}),
+  vim.keymap.set("n", "<space>1", ":BufferLineGoToBuffer 1<CR>", {}),
+  vim.keymap.set("n", "<space>2", ":BufferLineGoToBuffer 2<CR>", {}),
+  vim.keymap.set("n", "<space>3", ":BufferLineGoToBuffer 3<CR>", {}),
+  vim.keymap.set("n", "<space>4", ":BufferLineGoToBuffer 4<CR>", {}),
+  vim.keymap.set("n", "<space>5", ":BufferLineGoToBuffer 5<CR>", {}),
+  vim.keymap.set("n", "<space>6", ":BufferLineGoToBuffer 6<CR>", {}),
+  vim.keymap.set("n", "<space>7", ":BufferLineGoToBuffer 7<CR>", {}),
+  vim.keymap.set("n", "<space>8", ":BufferLineGoToBuffer 8<CR>", {}),
+  vim.keymap.set("n", "<space>9", ":BufferLineGoToBuffer 9<CR>", {}),
+  vim.keymap.set("n", "<space>$", ":BufferLineGoToBuffer -1<CR>", {}),
+}
