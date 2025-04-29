@@ -25,6 +25,7 @@ return {
 		lspconfig.clangd.setup({
 			cmd = { "clangd", "--log=verbose" }, -- Enable verbose logging
 			init_options = {
+				documentationComments = true,
 				clangdFileStatus = true, -- Optional, enables file status support
 				fallbackFlags = {
 					"-I" .. vim.fn.getcwd() .. "./lib",
